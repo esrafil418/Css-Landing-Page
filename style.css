@@ -1335,15 +1335,15 @@ body {
     background: #7f3ce0;
   }
 
-  .features {
+  .features{
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .features div {
-    margin: -25px;
-  }
+    .features div {
+      margin: -25px;
+    }
 
   /* ! section-5  */
 
