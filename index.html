@@ -8,7 +8,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <title>HW-8</title>
+    <title>Landing Page</title>
   </head>
   <body>
     <div class="container">
@@ -17,14 +17,18 @@
         <div class="navbar__logo">
           <img src="./assets/icons/icon-header.png" alt="Codext Logo" />
         </div>
-        <nav class="navbar__menu">
-          <a href="#">Home</a>
-          <a href="#">Services</a>
-          <a href="#">Pricing</a>
-          <a href="#">Testimonials</a>
-          <a href="#">Blog</a>
-          <button class="navbar__button">Free Trial</button>
-        </nav>
+        <div class="desktop-nav">
+          <nav class="navbar__menu-links">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Pricing</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Blog</a>
+          </nav>
+          <nav class="navbar__menu">
+            <button class="navbar__button">Free Trial</button>
+          </nav>
+        </div>
       </header>
 
       <section class="hero">
@@ -67,12 +71,14 @@
                   alt="feature icon"
                   class="feature__icon"
                 />
-                <h3 class="feature__title-sec-2">Ultra fast & Secure</h3>
+                <div class="feature__text-box">
+                  <h3 class="feature__title-sec-2">Ultra fast & Secure</h3>
+                  <p class="feature__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    vitae velit proin justo, elementum siIn morbi
+                  </p>
+                </div>
               </div>
-              <p class="feature__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. vitae
-                velit proin justo, elementum siIn morbi
-              </p>
             </div>
 
             <div class="feature">
@@ -82,12 +88,14 @@
                   alt="feature icon"
                   class="feature__icon"
                 />
-                <h3 class="feature__title-sec-2">Allows customization</h3>
+                <div class="feature__text-box">
+                  <h3 class="feature__title-sec-2">Allows customization</h3>
+                  <p class="feature__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    vitae velit proin justo, elementum siIn morbi
+                  </p>
+                </div>
               </div>
-              <p class="feature__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. vitae
-                velit proin justo, elementum siIn morbi
-              </p>
             </div>
 
             <div class="feature">
@@ -97,12 +105,14 @@
                   alt="feature icon"
                   class="feature__icon"
                 />
-                <h3 class="feature__title-sec-2">Smart contract</h3>
+                <div class="feature__text-box">
+                  <h3 class="feature__title-sec-2">Smart contract</h3>
+                  <p class="feature__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    vitae velit proin justo, elementum siIn morbi
+                  </p>
+                </div>
               </div>
-              <p class="feature__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. vitae
-                velit proin justo, elementum siIn morbi
-              </p>
             </div>
           </div>
         </div>
@@ -182,10 +192,12 @@
 
             <p class="price">$10 <span class="price-span">/mo</span></p>
             <div class="features">
-              <div>Easy Customizable</div>
-              <div>Commercial License</div>
-              <div>5 User License</div>
-              <div>Hotline Support 24/7</div>
+              <ul>
+                <li>Easy Customizable</li>
+                <li>Commercial License</li>
+                <li>5 User License</li>
+                <li>Hotline Support 24/7</li>
+              </ul>
             </div>
             <button class="price-btn">TRY THIS PACKAGE</button>
           </div>
@@ -197,12 +209,14 @@
               <p class="price">$30 <span class="price-span">/mo</span></p>
             </div>
             <div class="features">
-              <div>Easy Customizable</div>
-              <div>Commercial License</div>
-              <div>10 User License</div>
-              <div>Hotline Support 24/7</div>
+              <ul>
+                <li>Easy Customizable</li>
+                <li>Commercial License</li>
+                <li>5 User License</li>
+                <li>Hotline Support 24/7</li>
+              </ul>
             </div>
-            <button class="price-btn btn-primary">TRY THIS PACKAGE</button>
+            <button class="price-btn">TRY THIS PACKAGE</button>
           </div>
 
           <div class="price__box__card">
@@ -210,10 +224,12 @@
 
             <p class="price">$49 <span class="price-span">/mo</span></p>
             <div class="features">
-              <div>All Premium Features</div>
-              <div>Unlimited Users</div>
-              <div>Lifetime License</div>
-              <div>Priority Support 24/7</div>
+              <ul>
+                <li>Easy Customizable</li>
+                <li>Commercial License</li>
+                <li>5 User License</li>
+                <li>Hotline Support 24/7</li>
+              </ul>
             </div>
             <button class="price-btn">TRY THIS PACKAGE</button>
           </div>
@@ -350,38 +366,22 @@
       <!-- footer -------------  -->
       <footer class="footer">
         <div class="footer-head">
-          <div class="footer-info-1">
-            <div class="logo">
-              <img src="./assets/icons/icon-footer.png" alt="Codext Logo" />
+          <div class="footer-grid">
+            <div class="footer-info-2">
+              <h3>Resources</h3>
+              <p>Services</p>
+              <p>Pricing</p>
+              <p>Testimonials</p>
+              <p>Blog</p>
             </div>
-            <div class="description">
-              <p>
-                Lorem ipsum dolor sit amet, consect etur adipiscing elit.
-                Ullamcorper purus eleifend purus faucibus faucibus.
-              </p>
-            </div>
-            <div class="social-icons">
-              <img src="./assets/icons/footer-icon-f.png" alt="Facebook" />
-              <img src="./assets/icons/footer-icon-i.png" alt="Instagram" />
-              <img src="./assets/icons/footer-icon-t.png" alt="Twitter" />
-              <img src="./assets/icons/footer-icon-link.png" alt="LinkedIn" />
-            </div>
-          </div>
 
-          <div class="footer-info-2">
-            <h3>Resources</h3>
-            <p>Services</p>
-            <p>Pricing</p>
-            <p>Testimonials</p>
-            <p>Blog</p>
-          </div>
-
-          <div class="footer-info-3">
-            <h3>Useful Links</h3>
-            <p>Terms of Services</p>
-            <p>Privacy Policy</p>
-            <p>Cookie Policy</p>
-            <p>Contact Us</p>
+            <div class="footer-info-3">
+              <h3>Useful Links</h3>
+              <p>Terms of Services</p>
+              <p>Privacy Policy</p>
+              <p>Cookie Policy</p>
+              <p>Contact Us</p>
+            </div>
           </div>
 
           <div class="footer-info-4">
@@ -391,6 +391,14 @@
               <input type="email" placeholder="Email address" />
               <button type="submit">Send</button>
             </form>
+          </div>
+          <div class="footer-info-1">
+            <div class="social-icons">
+              <img src="./assets/icons/footer-icon-f.png" alt="Facebook" />
+              <img src="./assets/icons/footer-icon-i.png" alt="Instagram" />
+              <img src="./assets/icons/footer-icon-t.png" alt="Twitter" />
+              <img src="./assets/icons/footer-icon-link.png" alt="LinkedIn" />
+            </div>
           </div>
         </div>
 
