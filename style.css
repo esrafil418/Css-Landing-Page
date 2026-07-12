@@ -58,3 +58,64 @@ nav img {
 .nav-links ul li:hover::after {
 	width: 100%;
 }
+
+.text-box {
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.text-box h1 {
+	font-size: 60px;
+}
+
+.text-box p {
+	margin: 10px 0 40px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.hero-btn {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+	transition: all 1s;
+}
+
+.hero-btn:hover {
+	border: 1px solid #f44336;
+	background: #f44336;
+}
+
+nav .fa {
+	display: none;
+}
+
+@media (max-width: 700px) {
+	.text-box h1 {
+		font-size: 20px;
+	}
+	.nav-links ul li {
+		display: block;
+	}
+	.nav-links {
+		position: absolute;
+		background: #f44336;
+		height: 100vh;
+		width: 200px;
+		top: 0;
+		right: 0;
+		text-align: left;
+		z-index: 2;
+	}
+}
