@@ -1,4 +1,4 @@
-# GameVerse 🎮
+# GameVerse
 
 ![GameVerse Hero Banner](assets/github/home.png)
 
