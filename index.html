@@ -11,8 +11,8 @@
   <section class="header">
     <nav>
       <a href="#"><img src="assets//logo/logo.png" alt="logo"></a>
-      <div class="nav-links">
-        <i class="fa fa-times" aria-hidden="true"></i>
+      <div class="nav-links" id="navLinks">
+        <i class="ph ph-x close-icon" onclick="hideMenu()"></i>
         <ul>
           <li><a href="">Home</a></li>
           <li><a href="">ABOUT</a></li>
@@ -21,7 +21,7 @@
           <li><a href="">CONTACT</a></li>
         </ul>
       </div>
-      <i class="fa fa-bars" aria-hidden="true"></i>
+     <i class="ph ph-list menu-icon" onclick="showMenu()"></i>
     </nav>
 
     <div class="text-box">
@@ -30,6 +30,7 @@
       <a href="" class="hero-btn">Visit Us to Know More</a>
     </div>
   </section>
-  
+  <script src="https://unpkg.com/phosphor-icons@latest"></script>
+  <script src="app.js"></script>
 </body>
 </html>
