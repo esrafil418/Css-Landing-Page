@@ -1,12 +1,14 @@
 # GameVerse
 
-![GameVerse Hero Banner](assets/github/home.png)
+![GameVerse Hero Banner](assets/github/hero-section.png)
 
 A modern, responsive gaming website showcasing game genres, features, and customer testimonials. Built with HTML, CSS, and JavaScript.
 
 ## 🚀 Live Demo
 
 [View Live Demo](https://esrafil418.github.io/HTML-CSS-Landing-Page/)
+
+![GameVerse Hero Banner](assets/github/genres.png)
 
 ## ✨ Features
 
@@ -19,3 +21,7 @@ A modern, responsive gaming website showcasing game genres, features, and custom
 - **Customer Testimonials** - User reviews with star ratings
 - **Call to Action** - Encourages user engagement
 - **Social Media Icons** - Footer with social links
+
+![GameVerse Hero Banner](assets/github/plus.png)
+
+![GameVerse Hero Banner](assets/github/footer.png)
