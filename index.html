@@ -3,9 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
   <title>Document</title>
 </head>
 <body>
-  
+  <!-- ! Hero Section  👇 -->
+  <section class="header">
+    <nav>
+      <a href="#"><img src="assets//logo/logo.png" alt="logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="ph ph-x close-icon" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">GAMES</a></li>
+          <li><a href="">BLOG</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </div>
+     <i class="ph ph-list menu-icon" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>Welcome to the Game Vers</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In officia quibusdam, iste, dignissimos fugit aut <br> magni optio tempora veritatis ducimus accusantium itaque.</p>
+      <a href="" class="hero-btn">Visit Us to Know More</a>
+    </div>
+  </section>
+  <!-- ! Hero Section  ☝️ -->
+  <!-- ! Course  👇 -->
+   <section class="course">
+    <h1>Games We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, magni!</p>
+
+    <div class="row">
+      <div class="course-col">
+        <h3>Adventure</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quae harum ratione ad sequi, dolorem, modi voluptates inventore animi nulla nemo tempore laborum consectetur, et deserunt adipisci aut voluptatibus at?</p>
+      </div>
+      <div class="course-col">
+        <h3>Action</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quae harum ratione ad sequi, dolorem, modi voluptates inventore animi nulla nemo tempore laborum consectetur, et deserunt adipisci aut voluptatibus at?</p>
+      </div>
+      <div class="course-col">
+        <h3>Horror</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quae harum ratione ad sequi, dolorem, modi voluptates inventore animi nulla nemo tempore laborum consectetur, et deserunt adipisci aut voluptatibus at?</p>
+      </div>
+    </div>
+   </section>
+  <!-- ! Course  ☝️ -->
+  <!-- ! Genres  👇 -->
+   <section class="genres">
+    <h1>Our Genres</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, deserunt!</p>
+
+    <div class="row">
+      <div class="genres-col">
+        <img src="./assets/games/death-stranding-main-poster.jpg" alt="Adventure">
+        <div class="layer">
+          <h3>Adventure</h3>
+        </div>
+      </div>
+      <div class="genres-col">
+        <img src="./assets/games/RDR2-gang.png" alt="Action">
+        <div class="layer">
+          <h3>Action</h3>
+        </div>
+      </div>
+      <div class="genres-col">
+        <img src="./assets/games/The Last of Us Part II.jpg" alt="Horror">
+        <div class="layer">
+          <h3>Horror</h3>
+        </div>
+      </div>
+    </div>
+   </section>
+
+
+
+
+  <script src="https://unpkg.com/phosphor-icons@latest"></script>
+  <script src="app.js"></script>
 </body>
 </html>
