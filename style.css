@@ -242,17 +242,13 @@ nav .ph {
 }
 
 .layer {
-	background: transparent;
 	height: 100%;
 	width: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
 	transition: 0.6s;
-}
-
-.layer:hover {
-	background: rgba(226, 0, 0, 0.3);
+	background: rgba(226, 0, 0, 0.2);
 	cursor: pointer;
 }
 
@@ -260,18 +256,13 @@ nav .ph {
 	width: 100%;
 	font-weight: 500;
 	color: #fff;
-	font-size: 26px;
-	bottom: 20px;
+	font-size: 40px;
+	text-decoration: overline dotted ;
 	left: 50%;
 	transform: translateX(-50%);
 	position: absolute;
-	opacity: 0;
 	transition: 0.6s;
-}
-
-.layer:hover h3 {
-	opacity: 1;
-	bottom: 50%;
+	bottom: 80%;
 }
 
 /* ! Plus Features  👇  */
@@ -393,7 +384,8 @@ nav .ph {
 /* ! Footer 👇 */
 
 .footer {
-	width: 100%;
+	width: 70%;
+	margin: auto;
 	text-align: center;
 	padding: 30px 0;
 }
@@ -411,12 +403,11 @@ nav .ph {
 	padding: 18px 0;
 }
 
-
-@media(max-width: 700px) {
+@media (max-width: 700px) {
 	.icons i {
-	margin: 0 15px;
-	font-size: 20px;
-	cursor: pointer;
-	padding: 18px 0;
-}
+		margin: 0 15px;
+		font-size: 20px;
+		cursor: pointer;
+		padding: 18px 0;
+	}
 }
