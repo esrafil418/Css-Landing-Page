@@ -1,8 +1,9 @@
+// ! Hero Section
 const navLinks = document.getElementById("navLinks");
 
 function hideMenu() {
-	navLinks.style.right = "-200px";
+	navLinks.classList.remove("active");
 }
 function showMenu() {
-	navLinks.style.right = "0";
+	navLinks.classList.add("active");
 }
