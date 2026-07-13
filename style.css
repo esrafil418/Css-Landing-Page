@@ -389,3 +389,34 @@ nav .ph {
 		font-size: 25px;
 	}
 }
+
+/* ! Footer 👇 */
+
+.footer {
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.footer h4 {
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+.icons i {
+	margin: 0 15px;
+	font-size: 30px;
+	cursor: pointer;
+	padding: 18px 0;
+}
+
+
+@media(max-width: 700px) {
+	.icons i {
+	margin: 0 15px;
+	font-size: 20px;
+	cursor: pointer;
+	padding: 18px 0;
+}
+}
